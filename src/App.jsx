@@ -7,8 +7,8 @@ const img = require.context('./img', true);
 const App = () => {
     return (
         <div className='app'>
+            <h1>Porque estudiar programación:</h1>
             <div className='contenedor-principal'>
-                <h1>Porque estudiar programación:</h1>
                 <Testimonio 
                     imagen={img('./butsOne.png')}
                     nombre='Jon Skeet'
