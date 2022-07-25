@@ -8,6 +8,7 @@
     background-color: #fff;
     /* box-shadow: 0 3px 13px 1px rgba(193, 164, 164, 0.617); */
     overflow: hidden;
+    transition:all .9s ease-in-out;
 }
 
 .contenedor-testimonio:hover{
@@ -20,7 +21,7 @@
 .contenedor-testimonio:hover .img-testimonio{
     -webkit-transform:scale(1.3);
     transform:scale(1.2);
-    transition:all .7s ease-in-out;
+    transition:all .9s ease-in-out;
 }
 
 
@@ -67,6 +68,7 @@
 .img-testimonio{
     height: 80%;
     width: auto;
+    transition:all .9s ease-in-out;
 }
 
 
